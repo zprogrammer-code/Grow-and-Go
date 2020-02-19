@@ -1,0 +1,63 @@
+
+.title{
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size:50px;
+}
+.header{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    height: 130px;
+    border-radius: 10px;
+}
+.muscles{
+    text-align: center;
+    font-size: 30px;
+}
+div ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    text-align: left;
+    float: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  main ul {
+      display: inline-flex;
+      padding: 0;
+      text-align: center;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  li {
+    height: 40vh;
+    flex-grow: 1;
+  }
+  
+  img {
+    height: 240px;
+    width: 330px;
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 15px;
+  
+  }
+ .item-a {
+       width:100%;
+    align-self: stretch;
+    font-family: 'Vollkorn', serif;
+    font-size: 36px;
+  }
+.item-b {
+  grid-area: main;
+  background-color: black;
+  border-radius: 10px;
+}
+.item-d {
+  grid-area: footer;
+}
