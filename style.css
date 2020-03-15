@@ -48,25 +48,33 @@ table {
 	border-spacing: 0;
 }
 
-#title{
+/* END OF MEYER RESET */
+
+body {
+  background-color: black;
+}
+
+#title {
   margin-top: -30px;
     font-family: 'Monoton', cursive;
     font-size:37px;
 }
-#header{
+header {
 display: flex;
-    padding: 60px;
+    padding: 55px;
     text-align: left;
     background: black;
     color: white;
     font-size: 20px;
     height: 40px;
-    border-radius: 15px;
- 
-}
-#muscles{
+ }
+
+ /* IN CALVES.HTML */
+
+ #muscles{
   margin-top:0;
   height:40px;
+  padding: 5px;
     text-align: center;
     font-size: 30px;
     color: white;
@@ -74,7 +82,7 @@ display: flex;
 div ul {
     display: inline-flex;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     width: 33%;
     text-align: left;
     float: center;
@@ -83,7 +91,7 @@ div ul {
   }
   main ul {
       display: inline-flex;
-      padding: 0;
+      padding: 5px;
       text-align: center;
       flex-wrap: wrap;
       justify-content: space-evenly;
@@ -96,6 +104,7 @@ div ul {
   img {
     height: 240px;
     width: 330px;
+    padding: 5px;
     object-fit: cover;
     vertical-align: bottom;
     border-radius: 15px;
@@ -114,44 +123,81 @@ div ul {
   background-color: black;
   border-radius: 10px;
 }
-#item-d {
-  grid-area: footer;
+.footer {
+  text-decoration-color: blanchedalmond ;
+  /* position: absolute; 
+  bottom: 200px;
+  width: 100%;  */
+  height: cover; 
+  color: black; 
+   /* display: flex;
+   flex-direction: row; */
 }
 
-/* calves.html */
+
+/* #item-d {
+  grid-area: footer;
+} */
+
+/* CALVES.HTML */
+
 .Calves_Form{
+  float: right;
+  justify-content: center;
   padding: 40px;
-  
   }
 
+  
   .Center-Container {
-    background: #2e5f3e;
+    background:#FFF;
     color: #4fa46b;
     width: 100%;
-    height: 400px;
+    height: 300px;
     margin: 20px auto 40px;
     clear: both;
+   
 }
-.Center-Container {
+
+/* .Center-Container {
   position: relative;
-}
+} */
+
 div {
   display: block;
 }
-.calves-body {
-  background: #FFF;
+
+.muscles-body {
+  background: #2e5f3e;
   color: #444;
+  height: 100%;
   padding: 40px 20px;
   font: 300 16px/24px "Helvetica Neue", Helvetica, sans-serif;
+ 
+  
 }
+
 .Center-Block {
   background: #4fa46b;
   color: #FFF;
-  padding: 20px;
+  padding: 15px;
 }
+
+.Absolute-Center {
+  height: 50%;
+  width: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 15px;
+}
+
 .Center-Block .Title {
-  padding: 0;
-  margin: 0 0 0.5em;
+  padding: 5px;
+  margin: 0 0.5 0.5em;
   line-height: 1em;
 }
 
@@ -159,24 +205,28 @@ div {
 h4 {
   font-size: 1.5em;
 }
+
 p:last-child, .Technique:last-child, section:last-child, .Container:last-child {
   margin-bottom: 0;
 }
-p {
+
+#p-muscle {
   margin: 0 0 20px;
 }
-p {
+
+#p-muscle {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
+  margin-inline-start: 5px;
   margin-inline-end: 0px;
+  font-size: 21px;
 }
 .Center-Container {
   background: #2e5f3e;
   color: #4fa46b;
   width: 100%;
   height: 400px;
-  margin: 20px auto 40px;
+  margin: 0px auto 0px;
   clear: both;
 }

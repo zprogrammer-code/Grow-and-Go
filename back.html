@@ -7,14 +7,14 @@
     <link href="https://fonts.googleapis.com/css?family=Monoton|Pangolin|Vollkorn&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div id="header">
+<body id="calves-body">
+    <header>
         <h1 id="title">Grow and go</h1>
         <ul id=item-a>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Routines</a></li>
-          <li><a href="#">Goals</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="routines.html">Routines</a></li>
+          <li><a href="goals.html">Goals</a></li>
+          <li><a href="contact.html">Contact</a></li>
         <div>
          <form>
            <input type="search" name="q" placeholder="Search query">
@@ -22,6 +22,29 @@
          </form>
         </div>
       </ul>
+    </header>
+    <!-- <div id="testButton">
+      <button></button>
+    </div> -->
+     <div class="Center-Container">
+      <div class="Center-Block Absolute-Center">
+        <h4 class="Title">Back<br /></h4>
+        <form action="http://localhost:3000/workouts/" method="POST" class="Calves_Form">
+          <input type="text" name="workout" placeholder="Type Of Workout" id="Calves Form">
+          <br><br><input type="text" name="weight" placeholder="current max weight" id="Calves Form">
+          <br><br><input type="text" name="set" placeholder="e.g. 8-10" id="Calves Form">
+          <br><br><input type="text" name="Reps" placeholder="e.g. 3 reps" id="Calves Form">
+          <br><br><input type="submit" value="Add dat shiat">
+        </form>
+        <p id="p-muscle">Here you can add your own workout. Your workout will be added to an open notepad. 
+          you may save your notes for your specs for each workout. You will also have the option to add 
+          your workouts to your Routines or Goals
+           <br/></p>
+        </div>
     </div>
-</body>
+    <footer>
+      
+    </footer>
+    <script src="musclePost.js"></script>
+  </body>
 </html>

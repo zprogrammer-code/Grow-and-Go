@@ -1,101 +1,70 @@
 
 const li1 = document.querySelector("#triceps");
-console.log(li1)
-
- li1.addEventListener('click', myFunction)
-function myFunction() {
+li1.addEventListener('click', tricepPage)
+    function tricepPage() {
     window.location.href = "triceps.html";
     }
-    
 const li2 = document.querySelector("#chest");
-console.log(li2)
-
- li2.addEventListener('click', myFunction)
-function myFunction() {
-    window.location.href = "chest.html";
-    }
-
-
-const li3 = document.querySelector("#biceps");
-    console.log(li3)
-    
-li3.addEventListener('click', myFunction)
-function myFunction() {
-        window.location.href = "biceps.html";
+li2.addEventListener('click', chest)
+    function chest() {
+            window.location.href = "chest.html";
         }
+        const li3 = document.querySelector("#biceps");
+        li3.addEventListener('click', biceps)
+             function biceps() {
+                     window.location.href = "biceps.html";
+                }
+                const li4 = document.querySelector("#shoulders");
+                li4.addEventListener('click', shoulders)
+                function shoulders() {
+                        window.location.href = "shoulders.html";
+                        }
+                        const li5 = document.querySelector("#abdominals");
+                        li5.addEventListener('click', abdominals)
+                             function abdominals() {
+                                window.location.href = "abdominal.html";
+                        }
+                        const li6 = document.querySelector("#quads");
+                        li6.addEventListener('click', quads)
+                             function quads() {
+                                window.location.href = "quads.html";
+                        }
+                        const li7 = document.querySelector("#back");
+                        li7.addEventListener('click', back)
+                             function back() {
+                                window.location.href = "back.html";
+                        }
+                        const li8 = document.querySelector("#gluts");
+                        li8.addEventListener('click', lowerBack)
+                              function lowerBack() {
+                                        window.location.href = "lower_back.html";
+                                        }
+                                        const li9 = document.querySelector("#calves");
+                                        li9.addEventListener('click', calves)
+                                              function calves() {
+                                                window.location.href = "calves.html";
+                                                }
 
-const li4 = document.querySelector("#shoulders");
-    console.log(li4)
-    
-li4.addEventListener('click', myFunction)
-function myFunction() {
-        window.location.href = "shoulders.html";
-        }
-        
-const li5 = document.querySelector("#abdominals");
-    console.log(li5)
-    
-li5.addEventListener('click', myFunction)
-function myFunction() {
-        window.location.href = "abdominal.html";
-        }
-
-const li6 = document.querySelector("#quads/thighs");
-    console.log(li6)
-    
-li6.addEventListener('click', myFunction)
-function myFunction() {
-        window.location.href = "quads.html";
-        }
-
-const li7 = document.querySelector("#back");
-    console.log(li7)
-    
-li7.addEventListener('click', myFunction)
-function myFunction() {
-        window.location.href = "back.html";
-        }
-
-const li8 = document.querySelector("#gluts/lowerback");
-    console.log(li5)
-    
-li8.addEventListener('click', myFunction)
-function myFunction() {
-        window.location.href = "lower_back.html";
-        }
-
-const li9 = document.querySelector("#calves");
-    console.log(li9)
-    
-li9.addEventListener('click', myFunction)
-function myFunction() {
-        window.location.href = "calves.html";
-        }
-
-        const calvesSubmit = document.createElement('button')
-        const calvesPagePrompt = prompt("Choose one of our options")
-        calvesSubmit.addEventListener('click', calvesWorkoute())
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-        
-
-        testButton.appendChild(calveSubmit)
+    function combineMuscleGroups(){
+            muscle_groups = []
+            muscle_groups.push(li1)
+            muscle_groups.push(li2)
+            muscle_groups.push(li3)
+            muscle_groups.push(li4)
+            muscle_groups.push(li5)
+            muscle_groups.push(li6)
+            muscle_groups.push(li7)
+            muscle_groups.push(li8)
+            muscle_groups.push(li9)
+            return muscle_groups
+         }
+//     console.log(combineMuscleGroups())
 
 
-        // function calvesWorkoute(){
-        //     const calvesSubmit = document.createElement('button')
-        //     const calvesPagePrompt = prompt("Choose one of our options")
-        //     const testButton = document.querySelector("#testButton")
-        //     const text;
-        //     const workoutPromt = prompt("Choose of suggested work outs")
-        //     calveWorkouts(woutkoutPrompt) {
-        //         case "Stair pushups":
-        //             text = "Stand on a stair on you toes with the heel hanging off.Rotate steps up, and down and extend to tip toe with each step"
-        //             break;
-        //             case "Stair Machine":
-        //                 text = "elevate to tiup toe as often as you can but dont etand nearly as far as the stair pushups"
-        //     }
-        // }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+      
+
+   
 
 
 
